@@ -1,0 +1,18 @@
+h1{
+    color: brown;
+    text-align: center;
+ 
+}
+
+
+body {
+    background-image: url(./408864179_342479481868687_2724919989645877908_n.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+h3{
+    color: aqua;
+    text-align: unset;
+}  

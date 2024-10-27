@@ -1,0 +1,5 @@
+print(4<8 or 2<14)
+print(5<9 or 3<23)
+print(7<12 or 5<6)
+print(10<13 or 5<9)
+print(20<40 or 3<5) 

@@ -1,0 +1,1 @@
+print(" irma , paata , sandro , chipo ")

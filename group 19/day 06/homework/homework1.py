@@ -1,0 +1,5 @@
+print(5<10 and 2<8)
+print(2<3 and 1<4)
+print(9<20 and 4<8)
+print(3<6 and 6<10)
+print(5<7 and 6<7)

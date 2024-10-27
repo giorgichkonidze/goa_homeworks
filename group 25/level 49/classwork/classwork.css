@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    width: 360px;
+    height: 420px;
+    border: 3px solid blueviolet;
+}
+
+.main_div {
+    border: 10px solid palegreen;
+    position: sticky;
+    top: 0px;
+    left: 450px;
+}
+
+body {
+    color: orangered;
+    background-color: blanchedalmond;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3d658e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.relative {
+    position: relative;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: lightgreen;
+}

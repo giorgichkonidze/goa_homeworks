@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+    <h2>რეგისტრაცია</h2>
+    <form action="/submit_registration_form" method="POST">
+        <label for="username">სახელი:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">ელ-ფოსტა:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="პროფესია">პროფესია:</label>
+        <select id="პროფესია" name="პროფესია">
+            <option value="football player">ფეხბურტელი</option>
+            <option value="basketball player">კალათბურთელი</option>
+            <option value="swimmer">მოცურავე</option>
+        </select><br><br>
+        
+        <input type="submit" value="რეგისტრაცია">
+    </form>
+</body>
+</html>
