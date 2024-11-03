@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(118, 91, 91, 0.1);
+    z-index: 1000;
+}
+
+h1{
+    color: rgb(187, 0, 31);
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 60px 20px; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
