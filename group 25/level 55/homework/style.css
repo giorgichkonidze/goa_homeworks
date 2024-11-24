@@ -118,13 +118,8 @@ body {
         column-gap: 3rem;       
     }
 }
-
-@media (min-width: 1250px) {
-    .header-paragraph {
-        font-size: 1.3rem;
-    }
     
-    .cards {
+.cards {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
@@ -148,4 +143,3 @@ body {
         align-self: center;
     }
 
-}
