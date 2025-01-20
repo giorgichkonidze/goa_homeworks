@@ -1,0 +1,21 @@
+#div-1{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#div-1:hover{
+  animation: div-width 3s ease;
+}
+
+@keyframes div-width{
+  from{
+      width: 150px;
+  }
+  to{
+      width: 500px;
+  }
+}
+

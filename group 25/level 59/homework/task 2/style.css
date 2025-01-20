@@ -1,0 +1,34 @@
+#div-2{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#div-2:hover{
+    animation: div-move 10s ease;
+}
+
+@keyframes div-move{
+    20%{
+        top: 0px;
+        left: 0px;
+    }
+    40%{
+        top: 0px;
+        left: 500px;
+    }
+    60%{
+        top: 500px;
+        left: 500px;
+    }
+    80%{
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
