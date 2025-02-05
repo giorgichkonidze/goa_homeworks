@@ -1,0 +1,45 @@
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    font-size: 18px;
+    color: rgb(0, 255, 0);
+    margin: 15px;
+}
+
+.text {
+    color: rgb(0, 255, 102);
+    padding: 10px;
+}
+
+#paragraph1 {
+    font-size: 16px;
+    color: rgb(33, 255, 118);
+}
+
+#paragraph2 {
+    font-size: 30px;
+    color: rgb(61, 61, 245);
+}
+
+#header1 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 30, 199);
+}
+
+#header2 {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(179, 0, 255);
+}
+
+#headerr3 {
+    font-size: 14px;
+    color: rgb(219, 41, 41);
+    font-style: italic;
+}
