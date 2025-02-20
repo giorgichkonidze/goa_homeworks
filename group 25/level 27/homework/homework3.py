@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
+numbers = [8, 15, 3, 5, 12]
 
-doubled_numbers = [x * 2 for x in numbers]
+total_sum = sum(numbers)
 
-print("გაორმაგებული სია:", doubled_numbers)
+print("")
+print("სიის ელემენტების ჯამი:", total_sum)
+print("")

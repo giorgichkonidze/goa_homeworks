@@ -1,7 +1,12 @@
-numbers = [8, 15, 3, 5, 12]
+list = [12, 9.6, "hi", "no", 10, "dog", True, "man", "GOA", "apple"]
 
-total_sum = sum(numbers)
+list[0] = 10,3              
+list[1] = 9           
+list[2] = "Goodbye!" 
+list[3] = "yes"              
+list[4] = "10,1" 
+
 
 print("")
-print("სიის ელემენტების ჯამი:", total_sum)
+print(list)
 print("")
