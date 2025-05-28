@@ -1,0 +1,22 @@
+const cartItems =["coca-cola", "water"]
+const prices = [2,1]
+
+let addItem = prompt("enter item you want to buy")
+let addPrices = prompt("enter price of the item")
+cartItems.unshift(addItem)
+prices.unshift(addPrices)
+console.log(cartItems)
+console.log(prices)
+cartItems.shift()
+prices.shift()
+console.log(cartItems)
+console.log(prices)
+let replaceItem = prompt("Enter item you want to buy")
+let replacePrices = prompt("Enter price of the item")
+cartItems.splice(0,1,replaceItem)
+prices.splice(0,1, replacePrices)
+console.log(cartItems)
+console.log(prices)
+prices.fill(1)
+console.log(cartItems)
+console.log(prices)

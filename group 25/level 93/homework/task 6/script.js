@@ -1,0 +1,29 @@
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7];
+let nestedArray = [8, [9, 10], [11, [12]]];
+
+
+let combinedArray = arr1.concat(arr2)
+console.log(combinedArray)
+combinedArray.copyWithin(5, 0, 3)
+console.log(combinedArray)
+combinedArray.fill(0, 6)
+console.log(combinedArray)
+combinedArray.pop()
+console.log(combinedArray)
+combinedArray.shift()
+console.log(combinedArray)
+combinedArray.unshift(100, 200)
+console.log(combinedArray)
+combinedArray.splice(2, 2, 'x', 'y', 'z')
+console.log(combinedArray)
+let slicedArray = combinedArray.slice(-5)
+console.log(slicedArray)
+let joinedString = slicedArray.join(",")
+console.log(joinedString)
+let flatArray = nestedArray.flat(2)
+console.log(flatArray)
+let includesEight = flatArray.includes(8)
+console.log(includesEight)
+let indexOfNine = flatArray.indexOf(9)
+console.log(indexOfNine)
