@@ -1,0 +1,20 @@
+a {
+    color:blue;
+    text-decoration: none;
+}
+a:link {
+    font-weight: normal;
+    background-color: rgb(5, 233, 104);
+}
+a:visited {
+    background-color: #6f42c1;
+    color: purple;
+}
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    background-color: #004085;
+}
+a:active {
+    color: olive;
+}

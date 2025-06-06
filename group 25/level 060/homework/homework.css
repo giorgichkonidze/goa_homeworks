@@ -2,11 +2,9 @@
     opacity: 0;
     transition: opacity 1s ease;
 }
-
 .hidden-text:hover {
     opacity: 1;
 }
-
 .rotate-button {
     padding: 10px 20px;
     background-color: #3498db;
@@ -17,23 +15,19 @@
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-
 .rotate-button:hover {
     transform: rotate(145deg);
 }
-
 .image-container {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .image-container img {
     width: 50%;
     opacity: 0.5;
     transition: all 0.3s ease;
 }
-
 .image-container img:hover {
     transform: scale(1.2);
     opacity: 1;

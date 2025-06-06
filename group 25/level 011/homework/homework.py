@@ -1,5 +1,4 @@
 first_age = int(input("enter first age: "))
-
 second_age = int(input("enter second age: "))
 
 # ასაკების შედარება

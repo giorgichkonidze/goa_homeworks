@@ -9,7 +9,6 @@
 #div-1:hover{
   animation: div-width 3s ease;
 }
-
 @keyframes div-width{
   from{
       width: 150px;
@@ -18,4 +17,3 @@
       width: 500px;
   }
 }
-

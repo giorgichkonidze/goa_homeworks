@@ -3,14 +3,12 @@
     box-sizing: border-box;
     margin: 0;
 }
-
 body {
     justify-content: center;
     display: flex;
     align-items: center;
     height: 100vh;
 }
-
 main {
     width: 500px;
     height: 900px;
@@ -20,11 +18,7 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 63px;
-
-     
-
 }
-
 main .info {
     display: flex;
     flex-direction: column;
@@ -32,21 +26,16 @@ main .info {
     gap: 15px;
     justify-content: center;
 }
-
 main .info .name {
     color: white;
     text-transform: capitalize;
     font-size: 1.5em;
     font-weight: 700;
-
 }
-
 main .info img {
     border-radius: 52%;
     margin-top: 35px;
 }
-
-
 main .info .Location {
     color: rgb(209, 209, 40);
     font-size: 0.5em;
@@ -60,7 +49,6 @@ main .info .proffesion {
     opacity: 0.8;
     font-family: "inter", serif;
 }
-
 main .social-link div {
     width: 455px;
     height: 78px;
@@ -77,8 +65,6 @@ main .social-link div:hover {
     color: black;
     font-weight: bolder;
 }
-
-
 @media (max-width: 310px) {
     main .info img{
         width: 100px;

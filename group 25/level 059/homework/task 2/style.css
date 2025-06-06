@@ -9,7 +9,6 @@
 #div-2:hover{
     animation: div-move 10s ease;
 }
-
 @keyframes div-move{
     20%{
         top: 0px;

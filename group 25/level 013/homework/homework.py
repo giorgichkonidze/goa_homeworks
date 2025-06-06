@@ -29,7 +29,6 @@ a = 1
 v = 6
 print(f == i and a == v)
 
-
 # True
 e = 50
 k = 70
@@ -42,7 +41,6 @@ t = 5
 r = 5
 h = 40
 print(d == h or t == r) 
-
 
 p = 0
 j = 9

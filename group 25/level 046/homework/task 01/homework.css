@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 
-
 :root {
   --prim-orange: hsl(31, 77%, 52%);
   --prim-cyan: hsl(184, 100%, 22%);
@@ -13,13 +12,11 @@
   --dark-gray: #555;
   --black: #000;
 }
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Lexend Deca", sans-serif;
   background-color: var(--neu-gray);
@@ -30,7 +27,6 @@ body {
   overflow: auto;
   color: var(--neu-white);
 }
-
 main {
   display: flex;
   flex-direction: row;
@@ -39,32 +35,26 @@ main {
   width: 100%;
   flex-wrap: wrap;
 }
-
 article {
   max-width: 278px;
   height: 450px;
   padding: 42px;
   position: relative;
 }
-
 article.sedan {
   background-color: var(--prim-orange);
   border-radius: 7px 0 0 7px;
 }
-
 article.suv {
   background-color: var(--prim-cyan);
 }
-
 article.luxury {
   background-color: var(--prim-dark-cyan);
   border-radius: 0 7px 7px 0;
 }
-
 img {
   margin-bottom: 36px;
 }
-
 h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
@@ -72,13 +62,11 @@ h1 {
   color: var(--neu-gray);
   margin-bottom: 1.5rem;
 }
-
 article p {
   color: var(--neu-white);
   font-size: 13.8px;
   line-height: 1.5rem;
 }
-
 button {
   position: absolute;
   cursor: pointer;
@@ -93,32 +81,25 @@ button {
   transition: all 0.2s ease-in-out;
   bottom: 42px;
 }
-
 .sedan button {
   background: var(--neu-gray);
   color: var(--prim-orange);
 }
-
 .suv button {
   background-color: var(--neu-gray);
   color: var(--prim-cyan);
 }
-
 .luxury button {
   background-color: var(--neu-gray);
   color: var(--prim-dark-cyan);
 }
-
 button:hover {
   background-color: transparent;
   color: var(--neu-gray);
 }
-
 button:active {
   transform: scale(0.9);
 }
-
-
 .attribution {
   width: 100%;
   margin: 0 auto;
@@ -129,17 +110,13 @@ button:active {
   line-height: 20px;
   text-align: center;
 }
-
 .attribution a {
   text-decoration: none;
   color: var(--dark-gray);
 }
-
 .attribution a:hover {
   color: var(--black);
 }
-
-
 @media only screen and (max-width: 844px) {
   body {
     display: flex;
@@ -147,24 +124,19 @@ button:active {
     overflow: scroll;
     flex-wrap: wrap;
   }
-
   main {
     padding: 50px 0;
     flex-direction: column;
   }
-
   article.sedan {
     border-radius: 7px 7px 0 0;
   }
-
   article.luxury {
     border-radius: 0 0 7px 7px;
   }
-
   article p {
     font-size: 0.77rem;
   }
-
   .attribution {
     position: relative;
     width: auto;

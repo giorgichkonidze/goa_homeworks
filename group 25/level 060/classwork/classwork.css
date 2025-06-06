@@ -1,43 +1,36 @@
 body {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #a5a5a5;
-  }
-
-  .div1 {
-    width: 100px;
-    height: 100px;
-    background-color: #0099ff;
-    transition: transform 0.3s, background-color 0.3s;
-  }
-  
-  .div1:hover {
-    transform: rotate(280deg);
-    background-color: #e74c3c;
-  }
-
-  .div2 {
-    width: 100px;
-    height: 100px;
-    background-color: #378f5c;
-    transition: transform 0.3s;
-  }
-  
-  .div2:hover {
-    transform: scale(3);
-  }
-
-  .div3 {
-    width: 100px;
-    height: 100px;
-    background-color: #ffa412;
-    transition: transform 0.3s;
-  }
-  
-  .div3:hover {
-    transform: translateX(100px) scale(1.5);
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #a5a5a5;
+}
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: #0099ff;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.div1:hover {
+  transform: rotate(280deg);
+  background-color: #e74c3c;
+}
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: #378f5c;
+  transition: transform 0.3s;
+}
+.div2:hover {
+  transform: scale(3);
+}
+.div3 {
+  width: 100px;
+  height: 100px;
+  background-color: #ffa412;
+  transition: transform 0.3s;
+}
+.div3:hover {
+  transform: translateX(100px) scale(1.5);
+}

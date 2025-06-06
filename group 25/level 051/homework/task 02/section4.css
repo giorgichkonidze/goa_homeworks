@@ -1,12 +1,10 @@
 body{
     background-color: aqua;
 }
-
 h1{
     color: rgb(199, 6, 6);
     text-align: center;
 }
-
 header{
     position: fixed;
     top: 0;
@@ -16,7 +14,6 @@ header{
     padding: 10px;
     box-shadow: 0 2px 5px rgba(118, 91, 91, 0.1);
     z-index: 1000;
-
 }
 footer {
     position: fixed;

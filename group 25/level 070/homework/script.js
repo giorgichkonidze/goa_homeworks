@@ -10,5 +10,3 @@ console.log("ჯამი: " + sum);
 console.log("სხვაობა: " + difference);
 console.log("ნამრავლი: " + product);
 console.log("განაყოფი: " + quotient);
-
-

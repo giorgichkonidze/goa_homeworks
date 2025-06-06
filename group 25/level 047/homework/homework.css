@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: url(./360_F_746232242_zwdwwPu9dBF4GkVaV6ICaxPvZWwRRC07.jpg);
     height: 100vh;
@@ -12,18 +11,13 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .form{
     margin: 50px;
     color: aqua;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 input{
     border-bottom: 2px solid #fff;
     background: transparent;
     color: aquamarine;
 }
-
-
