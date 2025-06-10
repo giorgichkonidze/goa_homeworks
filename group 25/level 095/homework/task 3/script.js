@@ -8,9 +8,7 @@ function fizzbuzz(list) {
         } else if (list[i] % 5 === 0){
             fizzes.push("buzz")
         }
-
     }
     return fizzes
 }
-
 console.log(fizzbuzz([1,2,3,4,5,6,7,8,9,10,15]))

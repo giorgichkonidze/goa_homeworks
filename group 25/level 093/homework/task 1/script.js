@@ -39,7 +39,4 @@ function comperehesiveArray() {
 
     // //10;
     console.log(list.join("-"));
-
 }
-
-

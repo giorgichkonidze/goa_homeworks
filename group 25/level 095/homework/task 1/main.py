@@ -6,6 +6,5 @@ def leap_year(year):
     else:
         return "leap year"
     
-    
 print(leap_year(2000))
 print(leap_year(2100))

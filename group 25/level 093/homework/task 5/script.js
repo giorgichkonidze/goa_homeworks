@@ -7,6 +7,7 @@ library.pop()
 console.log(library)
 let addBookmanyitems = prompt("which book you want to add")
 let booknumber = prompt ("how many itimes you want to add")
+
 for (let index = 0; index < booknumber; index++){
     library.splice(0,0,addBookmanyitems)
 }

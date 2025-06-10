@@ -4,7 +4,5 @@ function generatNumbers(n){
         numbers_sum += Math.floor(Math.random()*100)
     }
     return numbers_sum/n
-
 }
-
 console.log(generatNumbers(15))

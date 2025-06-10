@@ -2,7 +2,6 @@ let arr1 = [1, 2, 3, 4];
 let arr2 = [5, 6, 7];
 let nestedArray = [8, [9, 10], [11, [12]]];
 
-
 let combinedArray = arr1.concat(arr2)
 console.log(combinedArray)
 combinedArray.copyWithin(5, 0, 3)

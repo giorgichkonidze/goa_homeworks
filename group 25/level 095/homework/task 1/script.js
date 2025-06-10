@@ -7,6 +7,5 @@ function LeapYear(year) {
         return "leap year"
     }
 }
-
 console.log(LeapYear(2000))
 console.log(LeapYear(2100))

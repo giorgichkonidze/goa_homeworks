@@ -20,6 +20,5 @@ if (index2 !== -1) {
 array.push(60, 70, 80);
 console.log(array);
 
-
 array.splice(0, 4);
 console.log(array);
