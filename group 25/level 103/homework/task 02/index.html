@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="css" src="./css.png" width="150px">
+    <br>
+    <button onclick="changeImg()">changeImg</button>
+    <script>
+        function changeImg() {
+            let img = document.getElementById("css")
+            if (img.src.includes("150")) {
+                img.src = "html.png"
+            } else {
+                img.src = "css.png"
+            }
+        }
+    </script>
+</body>
+</html>

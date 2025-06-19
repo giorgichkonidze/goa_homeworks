@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+div {
+    display: flex;
+    gap: 30px;
+}
+div button {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+img {
+    border-radius: 30px;
+}

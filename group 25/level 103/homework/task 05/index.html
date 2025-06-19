@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>which is georgian capital city?</p>
+  
+  <label><input type="radio" name="quiz" value="batumi"> ბათუმი</label><br>
+  <label><input type="radio" name="quiz" value="kutaisi"> ქუთაისი</label><br>
+  <label><input type="radio" name="quiz" value="tbilisi"> თბილისი</label><br><br>
+
+  <button onclick="checkAnswer()">check</button>
+
+  <script>
+    function checkAnswer() {
+      const options = document.getElementsByName("quiz");
+      let selected = null;
+      for (let option of options) {
+        if (option.checked) {
+          selected = option.value;
+          break;
+        }
+      }
+      if (!selected) {
+        alert("pls aswer this question");
+      } 
+      else if (selected === "tbilisi") {
+        alert("well done , this answer is correct");
+      } 
+      else {
+        alert("this answer isn't correct, please try again");
+      }
+    }
+  </script>
+
+</body>
+</html>

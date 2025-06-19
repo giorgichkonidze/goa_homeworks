@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #colorBox {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            margin-top: 30px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="setBlueBackground()">Button</button>
+    <div id="colorBox"></div>
+    <script>
+        function setBlueBackground() {
+            document.getElementById("colorBox").style.backgroundColor = "blue"
+        }
+    </script>
+</body>
+</html>
