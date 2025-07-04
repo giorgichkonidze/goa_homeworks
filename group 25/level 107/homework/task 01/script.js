@@ -1,0 +1,1 @@
+document.getElementById("main-title").textContent = "Hello, MasterJaneza!";

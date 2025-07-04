@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .warning {
+            background-color: red;
+            color: white;
+        }
+        .success {
+            background-color: green;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>sign in</h2>
+    <form id="registrationForm">
+        <input type="text" id="firstName" placeholder="სახელი">
+        <br>
+        <input type="text" id="lastName" placeholder="გვარი">
+        <br>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <input type="password" id="password" placeholder="პაროლი">
+        <br>
+        <input type="password" id="confrimPassword" placeholder="დაადასტურე პაროლი">
+        <button type="submit">sign in</button>
+    </form>
+    <h3 id="message"></h3>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+const firstChar = str => str.charAt(0)

@@ -12,7 +12,6 @@ let result = numbers.some(num => num % 2 === 0)
 
 console.log(result)
 
-
 // map method
 
 let nuMbers = [1,2,3]

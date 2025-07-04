@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="myList">
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+    <button id="clear-btn">clear list</button>
+    <script>
+        document.getElementById("clear-btn").addEventListener("click", function() {
+            const list = document.getElementById("my-list")
+            while (list.firstChild) {
+                list.removeChild(list.firstChild)
+            }
+        })
+    </script>
+</body>
+</html>

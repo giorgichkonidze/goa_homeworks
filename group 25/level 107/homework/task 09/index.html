@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .offline {
+            color: gray;
+        }
+        .online {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="status" class="offline">offline</div>
+    <button id="status-btn">Toggle Status</button>
+    <script>
+        document.getElementById("status-btn").addEventListener("click", function(){
+            const status = document.getElementById("status")
+
+            if (status.classList.contains("offline")) {
+                status.classList.replace("offline", "online")
+                status.textContent = "online"
+            } else {
+                status.classList.replace("online", "offline")
+                status.textContent = "offline"
+            }
+        })
+    </script>
+</body>
+</html>

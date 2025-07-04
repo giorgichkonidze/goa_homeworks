@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hightlight {
+            background: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-btn">Toggle highlight</button>
+    <p id="toggle-target">watch me change</p>
+    <script>
+        document.getElementById("toggle-btn").addEventListener("click", function(){
+            document.getElementById("toggle-target").classList.toggle("highlight")
+        })
+    </script>
+</body>
+</html>
