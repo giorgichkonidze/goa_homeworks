@@ -5,7 +5,6 @@ let evenNums = numbers.filter(num => num % 2 === 0)
 
 console.log(evenNums)
 
-
 // filter/ task 02
 
 let users = [
