@@ -1,0 +1,1 @@
+const getFullName = (firstName, LastName) => firstName + " " + LastName
