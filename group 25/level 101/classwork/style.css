@@ -1,0 +1,29 @@
+#inc {
+    width: 150px;
+    height: 80px;
+    background-color: blueviolet;
+    font-size: 1.5em;
+    color: white;
+}
+#dec {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(174, 119, 9);
+    font-size: 1.5em;
+    color: white;
+}
+div {
+    width: 125px;
+    height: 60px;
+    background-color: rgb(234, 11, 11);
+    border: 5px solid rgba(0, 0, 0, 0.608);
+    margin: 15px;
+}
+.big {
+    width: 400px;
+    height: 400px;
+}
+.small {
+    width: 50;
+    height: 50px;
+}
