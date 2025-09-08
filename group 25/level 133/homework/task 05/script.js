@@ -1,0 +1,5 @@
+Promise.resolve(3)
+    .then(n => n + 2)
+    .then(n => n * 4)
+    .then(n => n - 5)
+    .then(console.log)
