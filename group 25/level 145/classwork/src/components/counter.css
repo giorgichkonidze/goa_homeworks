@@ -1,0 +1,14 @@
+button {
+    background: rgb(222, 19, 19);
+    border: 0;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: black;
+}
+div{
+    display: flex;
+    gap: 10px;
+}
