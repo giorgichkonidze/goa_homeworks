@@ -1,0 +1,17 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: rgb(52, 110, 52);
+  color: black;
+}
+h2 {
+  color: red;
+}
