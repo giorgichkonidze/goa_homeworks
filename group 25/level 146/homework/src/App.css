@@ -1,0 +1,112 @@
+body {
+  background-color: #0c112e;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.units {
+  background-color: #1c2145;
+  padding: 9px 13px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.main {
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+}
+
+.search-bar button {
+  background-color: #4a56e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.weather-card {
+  background-color: #1e2755;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.location h3 {
+  margin: 0;
+}
+
+.temperature h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.details div {
+  background-color: #2a3572;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.details span {
+  display: block;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.daily-forecast,.hourly {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.days,.hours {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e2755;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.days div,.hours div {
+  text-align: center;
+  flex: 1;
+  margin: 5px;
+  background-color: #2a3572;
+  border-radius: 8px;
+  padding: 10px 5px;
+}
