@@ -1,0 +1,11 @@
+jsx ელემენტები რენდერდება :
+
+1. მაგ <div id ="root"></div>
+2. უნდა გამოვიყენოთ reactDom
+   ReactDOM.render()
+   import React from 'react'
+   import ReactDOM from 'react-dom'
+
+   const root = ReactDOM.createRoot(document.getElementByid('root'))
+   root.render(element)
+3. ამ შემთხვევაშ ეს ელემენტი გამოჩნდება გვერდზე.
